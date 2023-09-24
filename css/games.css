@@ -1,0 +1,78 @@
+div.games {
+    width: 1494px;
+    height: 240px;
+    background-image: linear-gradient(rgb(255, 191, 198), rgb(255, 239, 241));
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    position: relative;
+  }
+  div.games > h3 {
+    color: red;
+    font-weight: bold;
+    font-size: medium;
+    font-family: yekan;
+    padding-top: 50px;
+    margin-right: 30px;
+  }
+  div.games > h6 {
+    color: black;
+    font-family: yekan;
+    margin-right: 30px;
+    padding-top: 10px;
+  }
+  div.games > p.digital {
+    background-color: #ef394e;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  div.games > div.images {
+    width: 735px;
+    height: 235px;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+  }
+  div.games > div.images > div.img {
+    width: 739px;
+    height: 235px;
+    line-height: 238px;
+   
+  }
+  div.games > div.images > div.img > img {
+    width: 216px;
+    height: inherit;
+    object-fit: cover;
+    margin-right: -4px;
+    border: 1px solid rgb(237, 237, 237);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+  }
+  div.games> div.images >div.little-img{
+      width:309px ;
+      height:inherit ;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: white;
+   
+  }
+  div.games > div.images >div.little-img>img{
+      width: 103px;
+      height: 116px;
+      object-fit: contain;
+      border: 1px solid lightgrey;
+      padding: 10px;
+      margin-right: -4px;
+      border-left:0 ;
+      border-top: 0;
+  }

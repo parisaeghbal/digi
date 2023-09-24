@@ -1,0 +1,43 @@
+div.brands {
+  width: 1304px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+div.brands > h2 {
+  position: absolute;
+  left: 550px;
+  top: 30px;
+  color: #2b2b2b;
+  font-family: yekan;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+div.brandimage {
+  width: 1290px;
+  height: 124px;
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.swiper-button-next:after,
+.swiper-rtl,
+.swiper-button-prev:after {
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+}

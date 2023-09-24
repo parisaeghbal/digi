@@ -1,0 +1,39 @@
+div.grouping {
+  width: 1304px;
+  height: 485px;
+  text-align: center;
+  margin: 0px auto;
+}
+div.grouping > div.group {
+  width: inherit;
+  height: 100px;
+  margin: 0 auto;
+}
+div.grouping > div.group > h2 {
+  color: black;
+  font-family: yekan;
+  text-align: center;
+  line-height: 120px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+div.grouping > a > div.grouppicture {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 30px 40px;
+}
+div.grouping > a > div.grouppicture > img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+div.grouping > a > div.grouppicture > h4 {
+  margin-top: 10px;
+  color: black;
+  font-size: 10px;
+  font-weight: bolder;
+  font-family: yekan;
+  text-transform: capitalize;
+}

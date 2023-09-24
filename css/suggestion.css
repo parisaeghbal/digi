@@ -1,0 +1,129 @@
+div.suggestion {
+  width: 100%;
+  height: 222px;
+  background-image: url("../images/suggestions/2.svg"),
+    url("../images/suggestions/1.webp"),
+    linear-gradient(to right, rgb(193, 10, 186), rgb(248, 53, 86));
+  background-repeat: no-repeat;
+  background-position: 50% 28%, 50% -20px;
+  transition: 300ms;
+}
+div.amazing-offer {
+  width: 1494px;
+  height: 1605px;
+  z-index: 3;
+  border-radius: 20px;
+  background-color: white;
+  border-bottom:1px solid rgb(240, 240, 240) ;
+  margin-top: -100px;
+  margin-right: 18px;
+}
+div.amazing-offer>p{
+  color: red;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 18px;
+}
+
+
+div.amazing-offer > div.amazing-offer-image {
+  width: 372px;
+  height: 512px;
+  display: inline-block;
+  margin-right: -4px;
+  border: 1px solid rgb(237, 236, 236);
+ border-top:0 ;
+ border-right:0 ;
+}
+div.amazing-offer > div.amazing-offer-image > div.amazing-offer-img {
+  width: inherit;
+  height: inherit;
+}
+
+div.amazing-offer > div.amazing-offer-image:hover{
+  box-shadow: 0 0 5px gray;
+
+}
+div.amazing-offer > div.amazing-offer-image > div.amazing-offer-img > a > h3 {
+  color: rgb(230, 18, 61);
+  font-family: yekan;
+  font-size: 12px;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  font-weight: 900;
+  font-style: italic;
+  padding-bottom: 7px;
+}
+div.amazing-offer > div.amazing-offer-image > div.amazing-offer-img > a > img {
+  text-align: center;
+  margin: 0 35px;
+  height: 201px;
+  width: 297px;
+  object-fit: contain;
+}
+div.amazing-offer > div.amazing-offer-image > div.amazing-offer-img > a > h6 {
+  width: 90px;
+  height: 25px;
+  margin: 7px;
+  background-color: rgb(251, 248, 248);
+  color: rgb(70, 70, 70);
+  box-sizing: border-box;
+  line-height: 25px;
+  font-family: yekan;
+  font-size: 12px;
+  border-radius: 10px;
+}
+div.amazing-offer> div.amazing-offer-image> div.amazing-offer-img> a> h6> i {
+  color: crimson;
+  padding: 0 5px;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+div.amazing-offer > div.amazing-offer-image > div.amazing-offer-img > a > h4 {
+  color: rgb(33, 33, 33);
+  font-family: yekan;
+  font-size: 12px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+div.amazing-offer> div.amazing-offer-image> div.amazing-offer-img> a> span.send {
+  display: block;
+  margin: 0 7px;
+  color: rgb(70, 70, 70);
+  box-sizing: border-box;
+  font-family: yekan;
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+div.amazing-offer> div.amazing-offer-image> div.amazing-offer-img> a> span.send> i {
+  color: blue;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+div.amazing-offer> div.amazing-offer-image> div.amazing-offer-img> a> span.off {
+  background-color: rgb(239, 57, 78);
+  color: white;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0 7px;
+  margin: 20px;
+}
+div.amazing-offer> div.amazing-offer-image> div.amazing-offer-img> a> span.price {
+  color: rgb(50, 50, 50);
+  font-family: yekan;
+  font-weight: bolder;
+  margin-right: 180px;
+}
+div.amazing-offer > div.amazing-offer-image > div.amazing-offer-img > a > h5 {
+  color: rgb(182, 180, 180);
+  font-size: 14px;
+  padding-right: 267px;
+  padding-top: 12px;
+  text-decoration: line-through;
+}
+

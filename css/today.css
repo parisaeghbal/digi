@@ -1,0 +1,64 @@
+div.today-offers2 {
+  width: 742px;
+  height: 146px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+div.today-offers2 > div.today-offer2 {
+  width: inherit;
+  height: inherit;
+  background-color: #f6edef;
+  position: relative;
+  border-radius: 20px;
+}
+div.today-offers2 > div.today-offer2 > a > h5 {
+  color: gray;
+  font-family: yekan;
+  font-size: small;
+  padding: 30px;
+  box-sizing: border-box;
+  padding-bottom: 0;
+  padding-right: 50px;
+  padding-top: 25px;
+
+}
+div.today-offers2 > div.today-offer2 > a > h2 {
+  color: black;
+  font-size: medium;
+  font-family: yekan;
+  padding: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+div.today-offers2 > div.today-offer2 > a > span {
+  background-color: red;
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: medium;
+  color: white;
+  border-top-right-radius: 0;
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
+div.today-offers2 > div.today-offer2 > a > div.images {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+}
+div.today-offers2 > div.today-offer2 > a > div.images > img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin: 5px;
+}

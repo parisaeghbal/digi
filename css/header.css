@@ -1,0 +1,171 @@
+header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0px 1px 5px gray;
+}
+header > div.top-header {
+  width: inherit;
+  height: 60px;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+header > div.top-header > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+header > div.bottom-header {
+  width: inherit;
+  height: 110px;
+ 
+}
+header > div.bottom-header > div.top-bottom-header {
+  width: inherit;
+  height: 60px;
+  position: fixed;
+  top: 60px;
+  z-index: 2;
+  background-color: white;
+}
+header > div.bottom-header > div.top-bottom-header > div.logo {
+  width: 8%;
+  height: inherit;
+  display: inline-block;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+header > div.bottom-header > div.top-bottom-header > div.logo > svg {
+  margin-top: 15px;
+}
+header > div.bottom-header > div.top-bottom-header > div.search {
+  width: 80%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+header
+  > div.bottom-header
+  > div.top-bottom-header
+  > div.search
+  > input[type="text"] {
+  width: 50%;
+  height: 40px;
+  color: #2b2b2b;
+  border: unset;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(234, 232, 232);
+  font-family: yekan;
+  padding-right: 20px;
+  transition: 300ms;
+  margin: 3px 20px;
+}
+
+header
+  > div.bottom-header
+  > div.top-bottom-header
+  > div.search
+  > input[type="text"]:focus::placeholder {
+  color: whitesmoke;
+}
+header > div.bottom-header > div.top-bottom-header > div.login {
+  display: inline-block;
+  width: 8%;
+  height: inherit;
+  margin-right: -4px;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+header > div.bottom-header > div.top-bottom-header > div.login > a {
+  width: 110px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  color: #2b2b2b;
+  font-family: yekan;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+header > div.bottom-header > div.top-bottom-header > div.login > span {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+  transform: rotate(180deg);
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+header > div.bottom-header > div.bottom-bottom-header {
+  width: inherit;
+  height: 50px;
+  box-shadow: 0 1px 1px lightgrey;
+}
+header > div.bottom-header > div.bottom-bottom-header > nav {
+  width: 80%;
+  height: inherit;
+  transition: 300ms;
+  display: inline-block;
+}
+header > div.bottom-header > div.bottom-bottom-header > nav > ul {
+  width: inherit;
+  height: inherit;
+  margin: 0 auto;
+  list-style: none;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+header > div.bottom-header > div.bottom-bottom-header > nav > ul > li {
+  display: inline-block;
+  width: auto;
+  height: inherit;
+  position: relative;
+}
+header > div.bottom-header > div.bottom-bottom-header > nav > ul > li > a {
+  display: block;
+  width: inherit;
+  text-align: center;
+  height: inherit;
+  padding: 10px 15px;
+  margin-left: -4px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: yekan;
+  font-size: 13px;
+  color: rgb(83, 83, 83);
+  z-index: 2;
+  font-weight: bold;
+}
+header
+  > div.bottom-header
+  > div.bottom-bottom-header
+  > nav
+  > ul
+  > li
+  > a.active {
+  font-size: 14px;
+  color: rgb(43, 42, 42);
+}
+header
+  > div.bottom-header
+  > div.bottom-bottom-header
+  > nav
+  > ul
+  > li
+  > a
+  > span {
+  padding-left: 5px;
+}

@@ -1,0 +1,255 @@
+div.topfooter {
+  width: 100%;
+  height: 275px;
+  position: relative;
+  border-top: 1px solid lightgray;
+}
+div.topfooter > div.topfootertop {
+  height: 143px;
+  width: inherit;
+}
+div.topfooter > div.topfootertop > img {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 200px;
+}
+div.topfooter > div.topfootertop > a > h4 {
+  border: 1px solid lightgrey;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  padding: 10px 30px;
+  color: rgb(162, 161, 161);
+  border-radius: 10px;
+  font-size: 15px;
+}
+div.topfooter > div.topfootertop > h5 {
+  color: rgb(34, 34, 34);
+  font-family: yekan;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  font-weight: 600;
+}
+div.topfooter > div.topfooterbottom {
+  height: 134px;
+  width: inherit;
+}
+div.topfooter > div.topfooterbottom > div.topfooterbottomimage {
+  display: inline-block;
+  width: 306px;
+  height: 132px;
+  margin-right: -4px;
+  text-align: center;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.one
+  > figcaption {
+  position: absolute;
+  top: 165px;
+  right: 108px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.one
+  > figcaption
+  > img {
+  margin-right: 30px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.one
+  > figcaption
+  > h3 {
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(32, 32, 32);
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.two
+  > figcaption {
+  position: absolute;
+  top: 165px;
+  right: 404px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.two
+  > figcaption
+  > img {
+  margin-right: 30px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.two
+  > figcaption
+  > h3 {
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(32, 32, 32);
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.thiry
+  > figcaption {
+  position: absolute;
+  top: 165px;
+  right: 687px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.thiry
+  > figcaption
+  > img {
+  margin-right: 30px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.thiry
+  > figcaption
+  > h3 {
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(32, 32, 32);
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.four
+  > figcaption {
+  position: absolute;
+  top: 165px;
+  right: 990px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.four
+  > figcaption
+  > img {
+  margin-right: 30px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.four
+  > figcaption
+  > h3 {
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(32, 32, 32);
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.five
+  > figcaption {
+  position: absolute;
+  top: 165px;
+  right: 1307px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.five
+  > figcaption
+  > img {
+  margin-right: 30px;
+}
+div.topfooter
+  > div.topfooterbottom
+  > div.topfooterbottomimage
+  > a.five
+  > figcaption
+  > h3 {
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(32, 32, 32);
+}
+div.bottom-footer {
+  width: 100%;
+  height: 320px;
+}
+div.bottom-footer > div.bottom-footer-top {
+  width: 383px;
+  height: 300px;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+div.bottom-footer > div.bottom-footer-top > div.details {
+  width: inherit;
+  height: inherit;
+  vertical-align: top;
+  display: inline-block;
+}
+div.bottom-footer > div.bottom-footer-top > div.details > h3 {
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: yekan;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+div.bottom-footer > div.bottom-footer-top > div.details > h4 {
+  padding-top: 20px;
+  padding-bottom: 3px;
+  box-sizing: border-box;
+  font-family: yekan;
+  font-size: 16px;
+  font-weight: bold;
+}
+div.bottom-footer > div.bottom-footer-top > div.details > a > h5 {
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: yekan;
+  color: grey;
+}
+div.bottom-footer > div.bottom-footer-top > div.details > a > div.icons {
+  display: inline-block;
+  font-size: 30px;
+  color: grey;
+  padding: 20px;
+  box-sizing: border-box;
+}
+div.bottom-footer > div.bottom-footer-top > div.details > input[type="email"] {
+  width: 250px;
+  height: 49px;
+  background-color: rgb(240, 239, 239);
+  font-family: yekan;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  border: unset;
+  outline: unset;
+  display: inline-block;
+  padding: 15px;
+  box-sizing: border-box;
+}
+div.bottom-footer > div.bottom-footer-top > div.details > input[type="submit"] {
+  width: 60px;
+  height: 45px;
+  background-color: rgb(202, 200, 200);
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+}

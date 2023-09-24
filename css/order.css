@@ -1,0 +1,122 @@
+div.order {
+  width: 1497px;
+  height: 465px;
+  margin: 0 auto;
+ padding-top: 30px;
+ box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  
+}
+div.order>p{
+    color:#FF009C ;
+    margin-bottom:20px ;
+    margin-right:20px ;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: yekan;
+    display: inline;
+}
+div.order>p>i{
+    padding-left:10px ;
+    padding-bottom: 10px;
+}
+div.order div.amazing-offer-img {
+  width: 212px;
+  height: 378px;
+  display: inline-block;
+  border: 1px solid rgb(240, 239, 239);
+  border-top:0 ;
+  border-right: 0;
+  border-radius: 10px;
+
+
+}
+
+div.order div.amazing-offer-image:hover {
+  box-shadow: 0 0 5px gray;
+}
+div.order div.amazing-offer-img > a > h3 {
+  color: #FF009C;
+  font-family: yekan;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+div.order div.amazing-offer-img > a > img {
+  width: 160px;
+  height: 150px;
+  text-align: center;
+  margin-top: 15px;
+  object-fit: contain;
+  margin-right: 25px;
+}
+div.order div.amazing-offer-img > a > h4 {
+  color: rgb(33, 33, 33);
+  font-family: yekan;
+  font-size: 14px;
+  margin-right: 7px;
+ 
+}
+div.order div.amazing-offer-img > a > span.send {
+  display: block;
+  margin-top: 15px;
+  color: rgb(70, 70, 70);
+  box-sizing: border-box;
+  font-family: yekan;
+  font-size: 12px;
+  margin-left: 125px;
+}
+div.order div.amazing-offer-img > a > span.send > i {
+  color: blue;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+div.order div.amazing-offer-img > a >div.off-and-price{
+    width:200px ;
+    height:40px ;
+    margin-top: 25px;
+    margin-right:10px ;
+}
+div.order div.amazing-offer-img > a >div.off-and-price> span.off {
+  background-color: rgb(239, 57, 78);
+  color: white;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 40px;
+}
+div.order div.amazing-offer-img > a >div.off-and-price> span.price {
+  color: rgb(50, 50, 50);
+  font-family: yekan;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: medium;
+}
+div.order div.amazing-offer-img > a > h5 {
+  color: rgb(182, 180, 180);
+  font-size: 14px;
+  margin-right: 55px;
+  text-decoration: line-through;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #f0efef;
+  border-radius: 50%;
+}
+.swiper-button-next:after,
+.swiper-rtl,
+.swiper-button-prev:after {
+  font-size: 20px;
+  color: rgb(33, 33, 33);
+}
+

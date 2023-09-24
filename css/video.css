@@ -1,0 +1,72 @@
+div.topvideo {
+  width: 1304px;
+  height: 61px;
+  margin: 0 auto;
+}
+div.topvideo > div.videotitle {
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+  font-family: yekan;
+  position: relative;
+}
+div.topvideo > div.videotitle > div.videotitle1 {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  color: rgb(32, 31, 31);
+  font-size: large;
+  font-weight: bold;
+}
+div.topvideo > div.videotitle > a > div.videotitle2 {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  color: #63bfd3;
+  font-size: small;
+  font-weight: bold;
+}
+div.videos{
+  width: 1308px;
+  height: 277px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+ 
+}
+div.videos>div.video{
+    width:316px ;
+    height:277px ;
+    border-radius: 20px;
+    display: inline-block;
+    object-fit: cover;
+    border: 1px solid rgb(234, 233, 233);
+   margin: 4px;
+}
+div.videos>div.video>div.videoandtitle{
+    width:316px ;
+    height: 277px;
+    border-radius: 20px;
+
+
+}
+div.videos>div.video>div.videoandtitle>video{
+  width:315px ;
+  height: 196px;
+ border-top-right-radius:10px ;
+ border-top-left-radius:10px ;
+ object-fit: cover;
+ 
+}
+div.videos>div.video>div.videoandtitle>h4{
+font-family: yekan;
+font-size: 12px;
+color: rgb(7, 7, 7);
+padding: 15px 15px;
+box-sizing: border-box;
+padding-left: 20px;
+font-weight: 600;
+}
+hr{
+  width:300px;  size:5px;  color:lightgrey;
+}

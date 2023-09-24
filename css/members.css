@@ -1,0 +1,23 @@
+div.members{
+    width:1495px ;
+    height:110px ;
+    margin-top: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(235, 229, 237);
+    margin-bottom: 50px;
+   
+}
+div.members>img{
+    margin-right: 25px;
+    margin-top: 10px;
+}
+div.members>p{
+    color: #B12BA4;
+    font-family: yekan;
+    font-size: 16px;
+    font-weight: bolder;
+   float: left;
+   margin-top: 42px;
+   margin-left: 60px;
+}

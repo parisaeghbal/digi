@@ -1,0 +1,91 @@
+div.bestseller {
+    width: 1304px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 70px;
+    border: 1px solid lightgrey;
+   
+  }
+  div.bestseller  > div.title {
+    width: 1304px;
+    height: 60px;
+    position: relative;
+  }
+  div.bestseller > div.title > h2 > i {
+    color: #f9a825;
+    padding-left: 8px;
+  }
+  div.bestseller  > div.title > h2 {
+    top: 25px;
+    right: 560px;
+    font-family: yekan;
+    position: absolute;
+  }
+  div.bestseller > div.title > h5 {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    font-family: yekan;
+    color: #19c1da;
+  }
+  div.bestseller  div.bestsellerimage {
+    width: 324px;
+    height: 316px;
+  }
+  div.bestseller  div.bestsellerimage > div.bestsellerimageimg {
+    width: 326px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(240, 239, 239);
+    border-top:0 ;
+    border-right:0 ;
+    border-left:0 ;
+  }
+  div.bestseller  div.bestsellerimage> div.bestsellerimageimg> a > img {
+    width: 100px;
+    height: 100px;
+    margin-top: -3px;
+    display: inline-block;
+    vertical-align: top;
+    object-fit: cover;
+    text-align: right;
+  }
+  div.bestseller  div.bestsellerimage > div.bestsellerimageimg> a > span {
+    width: 30px;
+    height: 100px;
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: top;
+    font-size: larger;
+    color: rgb(25, 191, 211);
+    font-weight: bolder;
+  }
+  div.bestseller div.bestsellerimage > div.bestsellerimageimg > a > div.detail {
+    width: 165px;
+    height: 100px;
+    display: inline-block;
+    margin-right: -3;
+    vertical-align: top;
+    font-family: yekan;
+    color: rgb(87, 86, 86);
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-size: small;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-color: #ebeaea;
+    border-radius: 50%;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl,
+  .swiper-button-prev:after {
+    font-size: 20px;
+    color: rgb(13, 13, 13);
+  }
+  
+  

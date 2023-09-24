@@ -1,0 +1,104 @@
+div.bottom-bottom-header > div.left {
+  width: 600px;
+  height: 250px;
+  border: 1px solid #9c9a9a;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+div.bottom-bottom-header > a {
+  width: 20%;
+  height: inherit;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+div.bottom-bottom-header > a > label {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  color: rgb(31, 31, 31);
+  font-size: 13px;
+  font-family: yekan;
+  cursor: pointer;
+  font-weight: bold;
+}
+div.bottom-bottom-header > a > label > div.send {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+div.bottom-bottom-header > a > label > div.send > span {
+  padding: 5px;
+  font-size: 14px;
+}
+#show,
+#close {
+  display: none;
+}
+#show:checked ~ div.left {
+  display: block;
+}
+div.bottom-bottom-header > div.left > label[for="close"] {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  margin: unset;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
+#close:checked ~ div.left {
+  display: none;
+}
+div.bottom-bottom-header > div.left > div.first {
+  width: inherit;
+  height: 70px;
+  margin-bottom: 3px;
+  line-height: 70px;
+  font-size: 16px;
+  font-family: yekan;
+  padding: 0 40px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+div.bottom-bottom-header > div.left > div.second,
+div.third,
+div.four {
+  width: inherit;
+  height: 50px;
+  margin: 3px;
+  line-height: 50px;
+  font-size: 12px;
+  font-family: yekan;
+  padding: 0 50px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+div.bottom-bottom-header > div.left > div.second > span > a > i,
+div.third > span > a > i,
+div.four > span > a > i {
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+div.bottom-bottom-header > div.left > div.four > span > a > i {
+  color: lightblue;
+}

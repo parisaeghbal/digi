@@ -1,0 +1,64 @@
+div.products {
+  width: 1304px;
+  height: 420px;
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-right:0 ;
+}
+
+div.products > div.product {
+  width: 326px;
+  height: inherit;
+  text-align: center;
+  display: inline-block;
+  object-fit: cover;
+  margin-right: -4px;
+  border: 1px solid rgb(240, 240, 240);
+ border-top: 0;
+ border-bottom:0 ;
+ border-left:0 ;
+}
+div.products > div.product > div.imageproduct {
+  width: 287px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 10px;
+  object-fit: cover;
+ 
+  
+
+}
+div.products > div.product > div.imageproduct > a > img {
+  width: 140px;
+  height: 150px;
+  padding: 10px;
+  margin-right: -4px;
+  margin-top: -4px;
+ 
+}
+
+div.products > div.product > h4 {
+  color: black;
+  font-weight: normal;
+  font-family: yekan;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+div.products > div.product > h5 {
+  color: gray;
+  font-weight: normal;
+  font-family: yekan;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div.products > div.product > div.imageproduct > a > h4 {
+  color: rgb(22, 156, 233);
+  padding-top: 20px;
+}

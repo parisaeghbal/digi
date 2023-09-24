@@ -1,0 +1,18 @@
+div.off {
+  width: 1304px;
+  height: 258px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.off > div.image {
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+}
+div.off > div.image > img {
+  width: 644px;
+  height: inherit;
+  border-radius: 20px;
+  margin-right: 6px;
+}

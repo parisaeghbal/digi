@@ -1,0 +1,165 @@
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 10px;
+  background-color: rgb(203, 203, 203);
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu{
+background-color: white;  
+width:95vw;
+height: 500px;
+z-index: 2;
+position: absolute;
+right: 0;
+display: block;
+transition: 300ms;
+margin-right: 10px;
+border-radius: 10px;
+display: none;
+
+
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ{
+width: 15%;
+height: inherit;
+
+
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav{
+width: 100%;
+height: inherit;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul{
+width: 100%;
+height: inherit;
+list-style: none;
+overflow: scroll;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li{
+display: inline-block;
+width: 100%;
+height: 50px;
+transition: 300ms;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>a{
+display:block ;
+width: 100%;
+padding-right: 20px;
+box-sizing: border-box;
+height: inherit;
+text-align:right;
+font-family: yekan;
+text-decoration: none;
+font-size: 12px;
+font-weight: bolder;
+line-height: 50px;
+color:black;
+
+}
+
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>a>span{
+  padding-left: 15px;
+ font-size: 15px;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>a:hover{
+  background-color: lightgrey;
+  color: crimson;
+}
+
+  
+div.bottom-bottom-header > nav >ul>li:hover  div.submenu {
+    display: block;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu{
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  display: none;
+  transition: 300ms;
+  display: none;
+  
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu>div{
+  width: 25%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -3px;
+  
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu>div>ul{
+  width: 100%;
+  height: inherit;
+  list-style: none;
+  overflow: scroll;
+  
+  }
+  div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu>div>ul>li{
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  
+  }
+  div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu>div>ul>li>a.big{
+  display:block ;
+  width: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  height: inherit;
+  text-align:right;
+  font-family:yekan;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 14px;
+  color:black;
+  font-weight: bold;
+  
+  
+  
+  }
+  div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu>div>ul>li>a
+  {
+    display:block ;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    height: inherit;
+    text-align:right;
+    font-family:yekan;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+    color: rgb(74, 74, 74);
+    font-weight: normal;
+    
+    }
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu>div>ul>li>a.blue{
+  display:block ;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    height: inherit;
+    text-align:right;
+    font-family:yekan;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+    color: rgb(66, 56, 130);
+    font-weight: bold;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li:hover >div.subsubmenu{
+  display: block;
+}
+div.bottom-bottom-header>nav>ul>li>div.submenu>div.righ>nav>ul>li>div.subsubmenu >div>ul>li>a:hover{
+  
+  color: crimson;
+}
+.active {
+  display: block;
+}

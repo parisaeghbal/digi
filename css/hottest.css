@@ -1,0 +1,71 @@
+div.hottest {
+  width: 1304px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  border: 1px solid lightgrey;
+ 
+}
+div.hottest > div.title {
+  width: 1304px;
+  height: 60px;
+  position: relative;
+}
+div.hottest > div.title > h2 > i {
+  color: #f9a825;
+  padding-left: 8px;
+}
+div.hottest > div.title > h2 {
+  top: 25px;
+  right: 480px;
+  font-family: yekan;
+  position: absolute;
+}
+div.hottest div.hottestimage {
+  width: 324px;
+  height: 316px;
+}
+div.hottest div.hottestimage > div.hottestimageimg {
+  width: 326px;
+  height: 100px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(240, 239, 239);
+  border-top:0 ;
+  border-right:0 ;
+  border-left:0 ;
+}
+div.hottest div.hottestimage > div.hottestimageimg > a > img {
+  width: 100px;
+  height: 100px;
+  margin-top: -3px;
+  display: inline-block;
+  vertical-align: top;
+  object-fit: cover;
+  text-align: right;
+}
+div.hottest div.hottestimage > div.hottestimageimg > a > span {
+  width: 30px;
+  height: 100px;
+  display: inline-block;
+  line-height: 100px;
+  vertical-align: top;
+  font-size: larger;
+  color: rgb(25, 191, 211);
+  font-weight: bolder;
+}
+div.hottest div.hottestimage > div.hottestimageimg > a > div.detail {
+  width: 165px;
+  height: 100px;
+  display: inline-block;
+  margin-right: -3;
+  vertical-align: top;
+  font-family: yekan;
+  color: rgb(87, 86, 86);
+  padding-top: 30px;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+

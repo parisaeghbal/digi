@@ -1,0 +1,82 @@
+div.digi-download {
+  width: 1488px;
+  height: 72px;
+  background-color: #3c4b6d;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+div.digi-download > img {
+  position: absolute;
+  top: 12px;
+  right: 17px;
+  width: 45px;
+  height: 45px;
+}
+div.digi-download > h2 {
+  font-family: yekan;
+  color: white;
+  position: absolute;
+  top: 18px;
+  right: 74px;
+  font-size: 20px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+div.digi-download > a > div.download-left1 {
+  width: 143px;
+  height: 44px;
+  font-size: 16px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 940px;
+}
+div.digi-download > a > div.download-left1 > img {
+  width: inherit;
+  height: inherit;
+}
+div.digi-download > a > div.download-left2 {
+  width: 143px;
+  height: 44px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 1100px;
+}
+div.digi-download > a > div.download-left2 > img {
+  width: inherit;
+  height: inherit;
+}
+div.digi-download > a > div.download-left3 {
+  width: 143px;
+  height: 44px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 1256px;
+}
+div.digi-download > a > div.download-left3 > img {
+  width: inherit;
+  height: inherit;
+}
+div.digi-download > a > div.download-left4 {
+  width: 47px;
+  height: 44px;
+  font-size: 16px;
+  position: absolute;
+  right: 1423px;
+  top: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+div.digi-download > a > div.download-left4 > img {
+  width: inherit;
+  height: inherit;
+}

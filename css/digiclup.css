@@ -1,0 +1,106 @@
+div.digiclup {
+  width: 1304px;
+  height: 88px;
+  background-color: rgb(0, 114, 149);
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+div.digiclup > a > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  right: 30px;
+  padding-bottom: 42px;
+}
+div.digiclup > div.clupimage {
+  width: 273px;
+  height: 65px;
+  background-color: white;
+  position: absolute;
+  right: 460px;
+  top: 12px;
+  border-radius: 10px;
+}
+div.digiclup > div.clupimage > a > img {
+  width: 146px;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.digiclup > div.clupimage > a > span > i {
+  color: #00bfd6;
+  padding-right: 19px;
+  padding-top: 21px;
+  font-size: 20px;
+}
+div.digiclup > div.clupimage > a > h4 {
+  color: rgb(32, 32, 32);
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  font-family: yekan;
+  font-size: 14px;
+}
+div.digiclup > div.clupimage1 {
+  width: 273px;
+  height: 65px;
+  background-color: white;
+  position: absolute;
+  left: 293px;
+  top: 12px;
+  border-radius: 10px;
+}
+div.digiclup > div.clupimage1 > a > img {
+  width: 146px;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.digiclup > div.clupimage1 > a > span > i {
+  color: #00bfd6;
+  padding-right: 19px;
+  padding-top: 21px;
+  font-size: 20px;
+}
+div.digiclup > div.clupimage1 > a > h4 {
+  color: rgb(32, 32, 32);
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  font-family: yekan;
+  font-size: 14px;
+}
+div.digiclup > div.clupimage2 {
+  width: 273px;
+  height: 65px;
+  background-color: white;
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  border-radius: 10px;
+}
+div.digiclup > div.clupimage2 > a > img {
+  width: 146px;
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.digiclup > div.clupimage2 > a > span > i {
+  color: #00bfd6;
+  padding-right: 19px;
+  padding-top: 21px;
+  font-size: 20px;
+}
+div.digiclup > div.clupimage2 > a > h4 {
+  color: rgb(32, 32, 32);
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  font-family: yekan;
+  font-size: 14px;
+}

@@ -1,0 +1,86 @@
+div.spacial {
+  width: 1304px;
+  height: 387px;
+  background-color: rgb(148, 27, 128);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 15px;
+  background-image :linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  url("../../media/examples/lizard.png");
+}
+
+div.spacial > a > img {
+  padding: 5px 30px;
+  padding-top: 30px;
+}
+div.spacial > h4 {
+  color: white;
+  padding-right: 30px;
+  font-family: yekan;
+}
+div.spacial > a > div.membership {
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+div.spacial > a > div.membership > h4 {
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+div.spacial > div.spacialimage {
+  width: 870px;
+  height: 359px;
+  background-color: white;
+  margin: 0 auto;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-radius: 15px;
+}
+div.spacial > div.spacialimage > div.spacialimagefont {
+  width: 869px;
+  height: 53px;
+}
+div.spacial > div.spacialimage > div.spacialimagefont > a > i {
+  color: purple;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 25px;
+}
+div.spacial > div.spacialimage > div.spacialimagefont > a > h4 {
+  font-family: yekan;
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  font-weight: bolder;
+  color: black;
+}
+div.spacial > div.spacialimage > div.spacialimagefont > a > h5 {
+  color: rgb(148, 27, 128);
+  font-family: yekan;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+div.spacial > div.spacialimage > div.spacialimageimg {
+  width: 829px;
+  height: 291px;
+  margin-right: 22px;
+  margin-top: 15px;
+}
+div.spacial > div.spacialimage > div.spacialimageimg > a > img {
+  width: 134px;
+  height: 135px;
+  padding: 15px;
+}

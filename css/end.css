@@ -1,0 +1,117 @@
+div.end {
+  width: 1497px;
+  height: 570px;
+  margin: 0 auto;
+  padding-top: 119px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  background-image: linear-gradient(rgb(14, 173, 191), rgb(205, 220, 222));
+  padding-bottom: 67px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 15px;
+  position: relative;
+}
+div.end > img {
+  position: absolute;
+  top: 45px;
+  right: 30px;
+}
+div.end > p {
+  color: #323232;
+  font-weight: bold;
+  font-size: medium;
+  font-family: yekan;
+  display: inline;
+  position: absolute;
+  top: 50px;
+  left: 213px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+div.end > p.box {
+  width: 151px;
+  height: 35px;
+  background-color: #19bfd3;
+  color: white;
+  font-family: yekan;
+  font-size: 12px;
+  position: absolute;
+  top: 50px;
+  left: 44px;
+  border-radius: 10px;
+}
+div.end div.amazing-offer-img {
+  width: 253px;
+  height: 385px;
+  display: inline-block;
+  background-image: linear-gradient(rgb(191, 237, 243), rgb(208, 241, 250));
+}
+div.end div.amazing-offer-img > a > h3 {
+  color: #ff009c;
+  font-family: yekan;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+div.end div.amazing-offer-img > a > img {
+  width: 180px;
+  height: 160px;
+  text-align: center;
+  margin-top: 15px;
+  object-fit: contain;
+  margin-right: 25px;
+  opacity: 0.1;
+}
+div.end div.amazing-offer-img > a > h4 {
+  color: rgb(33, 33, 33);
+  font-family: yekan;
+  font-size: 12px;
+  margin: 5px;
+  margin-top: 20px;
+  margin-right: 0;
+  opacity: 0.5;
+  padding: 5px;
+}
+div.end div.amazing-offer-img > a > span.date {
+  display: block;
+  margin-top: 50px;
+  color: rgb(70, 70, 70);
+  box-sizing: border-box;
+  font-family: yekan;
+  font-size: 12px;
+  margin-right: 100px;
+  opacity: 0.5;
+}
+
+div.end div.amazing-offer-img > a > div.image > img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.1;
+  display: inline-block;
+  padding-top: 17px;
+}
+
+div.end div.amazing-offer-img > a > div.image > p {
+  color: gray;
+  display: inline-block;
+  font-size: large;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: #f0efef;
+  border-radius: 50%;
+}
+.swiper-button-next:after,
+.swiper-rtl,
+.swiper-button-prev:after {
+  font-size: 20px;
+  color: rgb(33, 33, 33);
+}

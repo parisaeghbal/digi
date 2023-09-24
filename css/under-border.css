@@ -1,0 +1,35 @@
+div.bottom-bottom-header > nav > ul > div.border {
+  width: 150px;
+  height: 2px;
+  background-color: crimson;
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+  transition: 300ms;
+  z-index: 1;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(1):hover ~ div.border {
+  right: 0;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(2):hover ~ div.border {
+  right: 150px;
+  width: 100px;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(3):hover ~ div.border {
+  right: 270px;
+  width: 100px;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(4):hover ~ div.border {
+  right: 400px;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(5):hover ~ div.border {
+  right: 550px;
+  width: 100px;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(6):hover ~ div.border {
+  right: 670px;
+  width: 100px;
+}
+div.bottom-bottom-header > nav > ul > li:nth-of-type(7):hover ~ div.border {
+  right: 770px;
+}
